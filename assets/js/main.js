@@ -7,9 +7,9 @@ function notasFinales(){
     document.getElementById("carrera").innerHTML = carrera;
 
     let notas = {
-      "[HTML]": [],
-      "[CSS]": [],
-      "[JavaScript]": []
+      "HTML": [],
+      "CSS": [],
+      "JavaScript": []
     };
 
     for (let ramo in notas) {
